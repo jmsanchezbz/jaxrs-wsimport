@@ -22,9 +22,9 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <packageName>es.imas.sirh.io.ws.sedipualba.sefycu.entity</packageName>
+                    <packageName>es.package.ws.service</packageName>
                     <wsdlUrls>
-                        <wsdlUrl>https://07700.sedipualba.es/sefycu/wssefycu.asmx?wsdl</wsdlUrl>
+                        <wsdlUrl>https://www.url.es/service/hello.wsdl</wsdlUrl>
                     </wsdlUrls>
                     <sourceDestDir>${project.build.directory}/generated-sources/</sourceDestDir>
                     <extension>true</extension>
